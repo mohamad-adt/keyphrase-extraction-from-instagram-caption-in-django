@@ -50,4 +50,6 @@ def main(document):
 
 
 if __name__ == '__main__':
-    main(document=input('please enter dataset: '))
+    document = input('please enter dataset: ')
+    result = main(document=document)
+    print(result)
